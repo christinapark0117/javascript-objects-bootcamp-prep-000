@@ -8,7 +8,6 @@ function updatePlaylist(playlist, artistName, songTitle) {
 
 function removeFromPlaylist (playlist, artistName) {
   delete playlist['Beatles']
-  delete playlist['Phil Ochs']
   return playlist
 }
  
